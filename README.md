@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/MikeBeloborodov/NFT_preview_card)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://classy-pony-44f993.netlify.app/)
 
 ## My process
 
