@@ -23,13 +23,22 @@
   <body>
     <main>
       <article class="card">
-        <img
-          src="images/image-equilibrium.jpg"
-          alt="Picture of a transparent cube with red and blue colors standing on a glass floor on one of its corners. There is a reflection on this cube on the glass floor."
-          class="card__img"
-        />
+        <div class="card__img-cover">
+          <img
+            src="images/image-equilibrium.jpg"
+            alt="Picture of a transparent cube with red and blue colors standing on a glass floor on one of its corners. There is a reflection on this cube on the glass floor."
+            class="card__img"
+          />
+          <img
+            src="images/icon-view.svg"
+            alt="Icon of an eye"
+            class="card__img-eye"
+          />
+        </div>
         <div class="card__text-section">
-          <h1 class="card__title">Equilibrium #3429</h1>
+          <h1 class="card__title">
+            <a href="#" class="card__title-link">Equilibrium #3429</a>
+          </h1>
           <p class="card__text">
             Our Equilibrium collection promotes balance and calm.
           </p>
@@ -58,7 +67,7 @@
               class="card__avatar"
             />
             <p class="card__creation-text">
-              Creation of <span class="card__author">Jules Wyvern</span>
+              Creation of <a href="#" class="card__author">Jules Wyvern</a>
             </p>
           </div>
         </div>
