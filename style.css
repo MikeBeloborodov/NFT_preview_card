@@ -85,10 +85,6 @@ body {
     position: relative;
 }
 
-.card__img:hover {
-    opacity: 0.6;
-}
-
 .card__img-eye {
     position: absolute;
     width: 50px;
@@ -173,7 +169,7 @@ body {
     height: 1.85rem;
     border: 1px solid var(--clr-white);
     border-radius: 100rem;
-    margin-right: 1rem; 
+    margin-right: 1rem;
 }
 
 .card__author {
@@ -185,4 +181,28 @@ body {
 .card__author:hover {
     color: var(--clr-aqua-accent);
 }
+
 /* END STYLES */
+
+@media(min-width: 1440px) {
+    .card {
+        max-width: 300px;
+        font-size: 17px;
+    }
+
+    .card__img-eye {
+        position: absolute;
+        width: 73px;
+        height: auto;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        padding: 7.1rem 7.1rem;
+        background-color: hsla(178, 100%, 50%, 0.5);
+        border-radius: 0.5rem;
+    }
+
+    .card__footer {
+        margin-bottom: 0.5rem;
+    }
+}
