@@ -1,0 +1,147 @@
+/* VARIABLES */
+:root {
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-aqua-accent: hsl(178, 100%, 50%);
+    --clr-paragraph: hsl(215, 51%, 70%);
+    --clr-border-line: hsl(215, 32%, 27%);
+    --clr-card-background: hsl(216, 50%, 16%);
+    --clr-background: hsl(217, 54%, 11%);
+
+    --ff-general: 'Outfit', sans-serif;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semiBold: 600;
+}
+
+/* VARIABLES */
+
+/* REST DEFAULTS */
+*,
+*::before,
+*a::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+img,
+svg {
+    display: block;
+    width: 100%;
+}
+
+/* END RESET DEFAULTS */
+
+/* STYLES */
+body {
+    display: grid;
+    place-content: center;
+    background-color: var(--clr-background);
+}
+
+.card {
+    max-width: 276px;
+    background-color: var(--clr-card-background);
+    color: var(--clr-paragraph);
+    font-family: var(--ff-general);
+    font-weight: var(--fw-light);
+    padding: 1.5rem 1.5rem;
+    border-radius: 0.8rem;
+    letter-spacing: 0.04rem;
+    font-size: 15px;
+    box-shadow: 0 25px 0px 15px hsl(217, 60%, 10%), 0 30px 10px 50px hsla(217, 71%, 10%, 0.1);
+}
+
+.card__img {
+    border-radius: 0.5rem;
+}
+
+.card__title {
+    color: var(--clr-white);
+    font-weight: var(--fw-semiBold);
+    font-size: 1.3rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0.9rem;
+}
+
+.card__text {
+    margin-bottom: 0.9rem;
+}
+
+.card__price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--clr-border-line);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card__price {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    align-items: center;
+}
+
+.card__price-img {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.card__eth-amount {
+    color: var(--clr-aqua-accent);
+    font-weight: var(--fw-semiBold);
+}
+
+.card__time {
+    display: flex;
+    align-items: center;
+}
+
+.card__time-clock {
+    width: auto;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+
+.card__footer {
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+}
+
+.card__avatar {
+    width: auto;
+    height: 1.85rem;
+    border: 1px solid var(--clr-white);
+    border-radius: 100rem;
+    margin-right: 1rem; 
+}
+
+.card__author {
+    color: var(--clr-white);
+}
+/* END STYLES */

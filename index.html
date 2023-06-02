@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <img
+          src="images/image-equilibrium.jpg"
+          alt="Picture of a transparent cube with red and blue colors standing on a glass floor on one of its corners. There is a reflection on this cube on the glass floor."
+          class="card__img"
+        />
+        <div class="card__text-section">
+          <h1 class="card__title">Equilibrium #3429</h1>
+          <p class="card__text">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="card__price-container">
+            <div class="card__price">
+              <img
+                src="images/icon-ethereum.svg"
+                alt="Icon of Ethereum"
+                class="card__price-img"
+              />
+              <p class="card__eth-amount">0.041 ETH</p>
+            </div>
+            <div class="card__time">
+              <img
+                src="images/icon-clock.svg"
+                alt="Icon of a clock"
+                class="card__time-clock"
+              />
+              <p class="card__time-text">3 days left</p>
+            </div>
+          </div>
+          <div class="card__footer">
+            <img
+              src="images/image-avatar.png"
+              alt="Avatar of the creator."
+              class="card__avatar"
+            />
+            <p class="card__creation-text">
+              Creation of <span class="card__author">Jules Wyvern</span>
+            </p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
